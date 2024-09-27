@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    flex-direction: column;
+    background-color: #000000;
+background-image: linear-gradient(62deg, #ffffff 0%, #000000 100%);
+
+}
+.calc {
+ padding: 20px;
+ border-radius: 1em;
+ height: 500px;
+ width: 400px;
+ margin: auto;
+ background-color: rgb(0, 0, 0);
+ box-shadow: 10px 10px 20px rgb(252, 252, 252)  ;
+}
+.display-box {
+ font-family: 'Orbitron', sans-serif;
+ background-color: rgb(255, 255, 255);
+ border: solid rgb(99, 97, 97) 0.5px;
+ color: rgb(0, 0, 0);
+ border-radius: 5px;
+ width: 100%;
+ height: 55%;
+ outline: none;
+ font-size: 22px;
+}
+
+/* Vasthavika */
+.button {
+ font-family: 'Orbitron', sans-serif;
+ background-color: rgb(87, 87, 87);
+ color: white;
+ border: solid rgb(0, 0, 0) 0.5px;
+ width:80px;
+ border-radius: 5px;
+ height: 60%;
+ outline: none;
+ border: none;
+ font-size: 30px;
+ cursor: pointer;
+}
+.button:active {
+ background: rgb(0, 0, 0);
+ -webkit-box-shadow: inset 0px 0px 5px #ffffff;
+ -moz-box-shadow: inset 0px 0px 5px #ffffff;
+ box-shadow: inset 0px 0px 5px #ffffff;
+}
